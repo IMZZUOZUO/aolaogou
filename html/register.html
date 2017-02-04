@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>奥莱购登录</title>
+		<link rel="shortcut icon" href="../img/common/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="../css/common/common.css" />
+		<link rel="stylesheet" href="../css/common/header.css" />
+		<link rel="stylesheet" href="../css/common/logonFooter.css" />
+		<link rel="stylesheet" href="../css/register.css" />
+		<script type="text/javascript" src="../lib/jquery-1.12.3.js" ></script>
+		<script type="text/javascript" src="../lib/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="../js/register.js" ></script>
+	</head>
+	<body>
+		<div id="box">
+			<div id="logonHeader"></div>
+			<div id="main" class="main">
+				<form>
+					<div class="mainTop">
+					<!--logo部分-->
+						<div class="mTop-lg "><a href="index.html"><img src="../img/common/logo.jpg"></a></div>
+						<div class="mTop-br"><a href="#" target="_blank"><img src="../img/register/ao-dl.jpg"></a></div>
+					</div>
+					<div class="mainBom">
+					<!--实际内容部分-->
+						<div class="mBom-br">
+							<!--这部分是左边的广告-->
+							<a href="register.html">
+								<img src="../img/register/1.jpg" />
+							</a>
+						</div>
+						<div id="logonArea" class="mBom-form">
+							<!--这是版心的部分也就是主要注册内容-->
+							<div class="form-t">
+							<!--跳转登录部分-->
+								<em>华盛奥莱会员</em><span><a href="logon.html">立即注册</a></span>
+							</div>
+							<div class="form-n">
+								<div class="form-box">
+									<div class="form-z1">
+										<input class="form-za" id="userName" placeholder="邮箱/手机" value="" type="text"
+										style="background-image: url(../img/register/lgr.jpg);"	>
+									</div>
+									<div class="height">
+										<div class="form-z2"></div>
+									</div>
+								</div>
+								<div class="form-box">
+									<div class="form-z1">
+										<input class="form-za" id="pwd" placeholder="请输入密码" value="" type="password"
+										style="background-image: url(../img/register/lgm.jpg);"	>
+									</div>
+									<div class="height">
+										<div class="form-z2"></div>
+									</div>
+								</div>
+								<div class="form-box">
+									<div class="form-z1 none" id="yanZheng">
+										<input class="form-za" id="yZm" placeholder="请输入右边计算结果" value="" type="text">
+										<span></span>
+									</div>
+									<div class="form-z2 none"></div>
+								</div>
+								<div class="form-z3">
+									<div class="form-btn1">
+										<ul>
+											<li>
+												<a href="##">忘记密码</a>
+											</li>
+											<li>
+												<input id="cK" type="checkbox" checked="checked"/>记住账号
+											</li>
+										</ul>
+									</div>
+									<div class="form-btn2">
+										<a href="##" id="form-btn">立即登录</a>
+									</div>
+								</div>
+							</div>
+							<div class="form-b">
+								<ul>
+									<li style="border-right: 1px solid #eaeaea;">
+										<div class="qq"></div>
+										<a href="##">直接登录</a>
+									</li>
+									<li>
+										<div class="wx"></div>
+										<a href="##">直接登录</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div> 
+			<div id="logonFooter"></div>
+		</div>
+	</body>
+</html>

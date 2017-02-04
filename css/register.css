@@ -1,0 +1,177 @@
+.main{
+	width:100%
+}
+.main form .mainTop{
+	width:1200px;
+	margin:0 auto;
+	margin: 30px 30px 0;
+	height:68px;
+}/*表单内容上的logo部分*/
+.mTop-lg{
+	float: left;
+	height:68px;
+	width:220px;
+}/*左边的logo*/
+.mTop-lg a{
+	text-decoration: none;
+	width:220px;
+}
+.mTop-br{
+	float:left
+}/*右边的说明*/
+.mainBom{
+	width:1200px;
+	height:513px;
+	padding: 30px;
+	margin-top: 20px;
+	border-bottom: 1px solid #E6E6E6;
+	border-top: 1px solid #e6e6e6;
+}/*注册下面的内容部分*/
+.mBom-br{
+	float: left;
+}/*左边的广告部分*/
+.mBom-form{
+	float:right;
+	width:350px;
+/*	height:450px;*/
+	margin-top: 30px;
+	border: 1px solid #d0d0d0;
+}/*注册的版心也就是主要内容部分*/
+.form-t{
+	background: #f5f5f5;
+	height: 40px;
+    border-bottom: 1px solid #f0f0f0;
+    line-height: 40px;
+    overflow: hidden;
+}/*跳转登录栏*/
+.form-t em{
+	font-weight: bold;
+    float: left;
+    color: #666;
+    margin-left: 15px;
+    font-style: normal;
+}/*文字说明*/
+.form-t span{
+    float: right;
+    margin-right: 15px;
+}
+.form-t span a{
+	   color: #ff7800;
+}/*跳转链接*/
+
+.form-n{
+/*登录内容的样式	*/
+	width:255px;
+	margin: 0 47.5px;
+	padding-top: 30px;
+	/*height:200px*/
+}
+
+.form-z1 input{
+	width: 205px;
+    background: #fcfcfc;
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 35px;
+    border: 1px solid #e6e6e6;
+    padding-left: 45px;
+    border-radius: 5px;
+    color: #666;
+    line-height: 35px;
+}
+.none{
+	display: none;
+}
+#yZm{
+	width: 130px;
+    background: #fcfcfc;
+    height: 35px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    color: #666;
+    padding: 0px 5px;
+    line-height: 35px;
+}
+#yanZheng span{
+	padding-left: 20px;
+	font-size: 16px;
+	line-height: 35px;
+	color:deepskyblue;
+	font-weight: 600;
+}
+.height{
+	height: 30px;
+    line-height: 30px;
+}
+.form-z2-hidd{
+	display: none;
+}
+.form-z2{
+	width: 250px;
+    height: 30px;
+    line-height: 30px;
+    color:#ff3344;
+}
+.form-z3{
+	width:250px;
+	height:40px;
+}
+.form-btn1{
+	float: left;
+	color:#666;
+}
+.form-btn1 li a{
+    color: #999
+}
+.form-btn2{
+	float:right;
+	
+}
+.form-btn2 a{
+	width: 140px;
+    height: 40px;
+    display: block;
+    background: #ff3344;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+.form-b{
+	height: 40px;
+    line-height: 40px;
+    background: #fff;
+    overflow: hidden;
+    border-top: 1px solid #e6e6e6;
+    margin-top: 20px;
+}
+.form-b ul li{
+	float: left;
+    width: 173px;
+    text-align: center;
+    position: relative;
+}
+.form-b ul li a{
+    color: #666;
+}
+.wx{
+    position: absolute;
+    top: 10px;
+    left: 37px;
+    background-position: -176px -156px;
+    width: 22px;
+    height: 19px;
+    background: url(../img/register/wx.png) no-repeat;
+}
+.qq{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    background-position: -155px -156px;
+    width: 17px;
+    height: 19px;
+    background: url(../img/register/qq.png) no-repeat;
+}

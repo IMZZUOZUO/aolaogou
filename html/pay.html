@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>结算订单</title>
+		<link rel="shortcut icon" href="../img/common/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="../css/common/common.css" />
+		<link rel="stylesheet" href="../css/common/footer.css" />
+		<link rel="stylesheet" href="../css/common/header.css" />
+		<link rel="stylesheet" href="../css/pay.css" />
+	</head>
+	<body>
+		<div id="box">
+			<div class="header"></div>
+			<div class="zhiFu">
+				<div class="sea-top">
+					<div class="sea-top-logo">
+						<a href="index.html"><img src="../img/common/logo.jpg"></a>
+					</div>
+					<div class="itop-br">
+						<a href="##" target="_blank">
+            				<img src="../img/shopCar/cart-js.jpg">
+						</a>
+					</div>
+					<div class="sea-top-seek">
+						<img src="../img/pay/jiesuanlogo.jpg" />
+					</div>
+				</div>
+			</div>
+			<div class="cart-warp">
+				<div class="cartpay">
+					<div class="cartpay-tl">
+						<span>收货人信息</span>
+					</div>
+					<div class="cartcheck">
+						<ul>
+							<li class="checkliname">收货地址：</li>
+							<li id="city">
+								<select class="prov"></select>  
+							    <select class="city" disabled="disabled"></select> 
+							    <select class="dist" disabled="disabled"></select>
+							</li>
+							 
+						</ul>
+						<ul>
+							<li class="checkliname"></li>
+							<li class="checkliput">
+								<input value="" class="tdetail-value1 consignee_street" type="text">
+							</li>
+						</ul>
+						<ul>
+							<li class="checkliname">
+								邮编：
+							</li>
+							<li class="checkliput">
+								<input value="" class="tdetail-value1 consignee_zip" type="text">
+							</li>
+						</ul>
+						<ul>
+							<li class="checkliname">
+								收货人：
+							</li>
+							<li class="checkliput">
+								<input value="" class="tdetail-value1 consignee_name" type="text">
+							</li>
+						</ul>
+						<ul>
+							<li class="checkliname">
+								手机：
+							</li>
+							<li class="checkliput">
+								<input value="" class="tdetail-value1 consignee_mobile" type="text">
+							</li>
+						</ul>
+						<ul>
+							<li class="checkliname">
+								固定电话：
+							</li>
+							<li class="checkliput">
+								<input value="" class="tdetail-value1 consignee_tel" type="text">
+							</li>
+						</ul>
+						<ul>
+							<li class="checkliput">
+								<a href="##" class="cart-bc saveaddr">保存</a>
+								<a href="##" class="cart-qx canceladdr">取  消</a>
+							</li>
+						</ul>
+					</div>
+					<div class="cartsale" style="margin-top:15px;">
+						<span>支付方式</span>
+					</div>
+					<div class="cartcheck">
+						<ul>
+							<li class="checkliname">
+								<input name="paytype" value="0" checked="checked" type="radio">在线支付
+							</li>
+							<li class="checkliadd">
+								支持多家银行借记卡、信用卡支付；支持支付宝、财付通等多种支付平台。 
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="cart-warp" style="margin-top:0;">
+				<div class="cartpay-tl" style="border-left: 1px solid #e6e6e6;border-right: 1px solid #e6e6e6;">
+					<span>商品清单</span>
+					<a href="shopCar.html">返回修改购物车</a>
+				</div>
+				<table class="tab-zdcon">
+					<tbody>
+						<tr class="tab-v31-tr">
+							<th width="600">商品名称</th>
+							<th width="120">单价</th>
+							<th width="120">数量</th>
+							<th width="120">优惠</th>
+							<th width="120">小计</th>
+							<th width="120">增长积分</th>
+						</tr>
+						<tr class="id01">
+							<td class="tab-zdcon-add">
+								<div class="tb3-con">
+									<div class="tb3-divtu">
+										<a href="details.html">
+											<img id="img-id1" src="../img/details/detalis-zoomdiv-big1.JPG" />
+										</a>
+									</div>
+									<div class="tb3-divti">
+										<a id="name-id1" href="##">111111111</a>
+										<p>
+											<span id="size-id1">//</span>
+											<span id="cor-id1">卡其</span>
+										</p>
+									</div>
+								</div>
+							</td>
+							<td class="tab-zdcon-line" id="m-neo">￥111</td>
+							<td class="tab-zdcon-line">
+								<div class="cart-num">
+									<ul>
+										<li>
+											<p  id="val-id1">0</p>
+										</li>
+									</ul>
+								</div>
+							</td>
+							<td class="tab-zdcon-line">
+								<span>
+									<p>0.00</p>
+								</span>
+							</td>
+							<td class="tab-zdcon-line">
+								<em id="em-id1">¥329.70</em>
+							</td>
+							<td>
+								<!--<div class="tabdiv-add">
+									<p>
+										<a href="##" action="collect" class="tabdiv-make">移入收藏夹</a>
+									</p>
+								</div>-->
+								<p>
+									<a class="tabdiv-del" id="del-id1" >0</a>
+								</p>
+							</td>
+						</tr>
+						<tr class="id02" >
+							<td class="tab-zdcon-add">
+								<div class="tb3-con">
+									<div class="tb3-divtu">
+										<a href="details.html">
+											<img id="img-id2" src="../img/details/detalis-zoomdiv-big1.JPG" />
+										</a>
+									</div>
+									<div class="tb3-divti">
+										<a id="name-id2" href="##">111111111</a>
+										<p>
+											<span id="size-id2">//</span>
+											<span id="cor-id2">卡其</span>
+										</p>
+									</div>
+								</div>
+							</td>
+							<td class="tab-zdcon-line" id="m-two">￥111</td>
+							<td class="tab-zdcon-line">
+								<div class="cart-num">
+									<ul>
+										<li>
+											<p id="val-id2">0</p>
+										</li>
+									</ul>
+								</div>
+							</td>
+							<td class="tab-zdcon-line">
+								<span>
+									<p>¥0.00</p>
+								</span>
+							</td>
+							<td class="tab-zdcon-line">
+								<em id="em-id2">¥329.70</em>
+							</td>
+							<td>
+								<p>
+									<a class="tabdiv-del" id="del-id2" >0</a>
+								</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="cart-ht">
+				<div class="cartsale"><span>订单结算</span></div>				
+				<div class="cart-fate">
+					<div class="cart-fate-bottom">
+						<div class="cft-left">商品合计</div>
+						<div class="cft-right">
+							<span id="allDll">¥1164.00</span>
+						</div>
+					</div>
+				</div>
+				<div class="cart-js">
+					<div class="c-js-left">
+						<ul class="jsul1">
+							<li class="jsli1">
+								<span>商&nbsp;&nbsp;&nbsp;&nbsp;品：</span>
+								<em id="allGood">6</em>件&nbsp;&nbsp;&nbsp;&nbsp;
+								<span>赠&nbsp;&nbsp;&nbsp;&nbsp;品：</span>
+								<em>0</em>件</li>
+							<li class="jsli2 bottomaddr"><span>寄送至：</span></li>
+						</ul>
+					</div>
+					<div class="c-js-right">
+						<ul>
+							<li>应付金额：<span class="paymoney">¥1164.00</span></li>
+							<li><a href="javascript:;" class="submit">提交订单</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer"></div>
+		</div>
+		<script type="text/javascript" src="../lib/jquery-1.12.3.js" ></script>
+		<script type="text/javascript" src="../lib/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="../js/common/jquery.cityselect.js" ></script>
+		<script type="text/javascript" src="../js/pay.js" ></script>
+		
+	</body>
+</html>

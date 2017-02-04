@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>奥莱购注册</title>
+		<link rel="shortcut icon" href="../img/common/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="../css/common/common.css" />
+		<link rel="stylesheet" href="../css/common/header.css" />
+		<link rel="stylesheet" href="../css/common/logonFooter.css" />
+		<link rel="stylesheet" href="../css/logon.css" />
+		<script type="text/javascript" src="../lib/jquery-1.12.3.js" ></script>
+		<script type="text/javascript" src="../lib/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="../js/logon.js" ></script>
+	</head>
+	<body>
+		<div id="box">
+			<div id="logonHeader"></div>
+			<div id="main" class="main">
+				<form>
+					<div class="mainTop">
+					<!--logo部分-->
+						<div class="mTop-lg "><a href="index.html"><img src="../img/common/logo.jpg"></a></div>
+						<div class="mTop-br"><a href="#" target="_blank"><img src="../img/logon/huanYing.jpg"></a></div>
+					</div>
+					<div class="mainBom">
+					<!--实际内容部分-->
+						<div class="mBom-br">
+							<!--这部分是左边的广告-->
+							<a href="logon.html">
+								<img src="../img/logon/1.png" />
+							</a>
+						</div>
+						<div id="logonArea" class="mBom-form">
+							<!--这是版心的部分也就是主要注册内容-->
+							<div class="form-t">
+							<!--跳转登录部分-->
+								<em>注册华盛奥莱会员</em><span><a href="register.html">已有账户，登录</a></span>
+							</div>
+							<div class="form-z">
+							<!--注册部分-->
+								<div class="form-box">
+									<div class="form-z1">
+										<span class="form-za">注册账号</span>
+										<input class="form-zb" style="background: url(../img/logon/zc.jpg) no-repeat right center;"
+											type="text" id="userName" placeholder="请输入手机号" />
+									</div><!--手机号-->
+									<div class="form-z2">
+										<span class="form-za"></span>
+										<span class="form-zc"></span>
+									</div><!--提示框部分-->
+								</div>
+								<div class="form-box">
+									<div class="form-z1">
+										<span class="form-za">输入密码</span>
+										<input class="form-zb" style="background: url(../img/logon/my.jpg) no-repeat right center;"
+											type="password" id="pwd" placeholder="请输入密码" />
+									</div><!--密码-->
+									<div class="form-z2">
+										<span class="form-za"></span>
+										<span class="form-zc"></span>
+									</div><!--提示框部分-->
+								</div>
+								<div class="form-box">
+									<div class="form-z1">
+										<span class="form-za">确认密码</span>
+										<input class="form-zb" style="background: url(../img/logon/my.jpg) no-repeat right center;"
+											type="password" id="rePwd" placeholder="请输入密码" />
+									</div><!--确认密码-->
+									<div class="form-z2">
+										<span class="form-za"></span>
+										<span class="form-zc"></span>
+									</div><!--提示框部分-->
+								</div>
+								<div class="form-box">
+									<div class="form-z1">
+										<span class="form-za">验证码</span>
+										<input class="form-zb" style="width:130px; padding-right: 10px;"
+											type="text" id="yanZhen" placeholder="请输入验证码" />
+										<span class="form-za" id="yZm">点击获取</span>
+									</div><!--验证码-->
+									<div class="form-z2">
+										<span class="form-za"></span>
+										<span class="form-zc"></span>
+									</div><!--提示框部分-->
+								</div>
+ 								<div style="display: none;" class="form-box">
+									<div class="form-z1">
+										<span class="form-za">短信验证</span>
+										<input class="form-zb" style="width:130px; padding-right: 10px;"style="width:130px" 
+											type="text" id="duanX" placeholder="请输入验证码" />
+										<span class="form-za" id="dx">短信验证</span>
+									</div>
+									<div class="form-z2">
+										<span class="form-za"></span>
+										<span class="form-zc"></span>
+									</div><!--提示框部分-->
+								</div>
+								<div class="form-box">
+									<div class="form-z1">
+										<span class="form-za"></span>
+										<input class="form-check" type="checkbox" checked="checked" id="cK" placeholder="" />
+										<a href="" http:="" help.aolaigo.com="" alg-agreement.htm"=" target="_blank"> 《奥莱购会员协议》</a>
+									</div>
+									<div class="form-z2">
+										<span class="form-za"></span>
+										<a href="#" id="btnSubmit" class="form-btn" style="color:#fff;display: inline-block;">注册</a>
+										<!--注册按钮-->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div> 
+			<div id="logonFooter"></div>
+		</div>
+	</body>
+</html>

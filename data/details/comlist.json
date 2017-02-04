@@ -1,0 +1,21 @@
+{
+	"comList1":{
+		"id":1,
+		"comname":"巴宝莉 新品女款单肩包233333333",
+		"price":"2333",
+		"yPrice":"￥23333",
+		"color":"卡其",
+		"size":"无",
+		"imgSrc":"../img/details/zoomdiva/"
+	},
+	"comList2":{
+		"id":2,
+		"comname":"巴宝莉 新品女款单肩包3980825 0010T",
+		"price":"3444",
+		"yPrice":"￥43434",
+		"color":"黑色",
+		"size":"无",
+		"imgSrc":"../img/details/zoomdivb/"
+	}
+	
+}

@@ -1,0 +1,379 @@
+.divTopHot{
+    margin-top: 20px;
+    
+}
+/*热门商品*/
+.s-Hotv3{
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid #e6e6e6;
+    overflow: hidden;
+}
+/*左边文字部分*/
+.s-Hotv3-lf{
+    float: left;
+    width: 40px;
+    height: 150px;
+    background: #fafafa;
+    border-right: 1px solid #e6e6e6;
+}
+.s-Hotv3-lf ul li{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+}
+/*右边图片部分*/
+.s-Hotv3-rt{
+    float: left;
+}
+.s-Hotv3-rt ul li{
+    float: left;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.hotv3-rtlia{
+    width: 130px;
+    height: 130px;
+    border: 1px solid #eaeaea;
+    float: left;
+}
+.hotv3-rtlib{
+    width: 130px;
+    float: left;
+    height: 130px;
+    margin-left: 10px;
+}
+.hotv3-rtlib-tit {
+    height: 52px;
+    overflow: hidden;
+}
+.hotv3-rtlib-tit a{
+    color: #333;
+}
+.hotv3-rtlib-val {
+    height: 30px;
+    line-height: 30px;
+    color: #ff3243;
+}
+.hotv3-rtlib-btn a {
+    width: 80px;
+    height: 30px;
+    display: block;
+    line-height: 30px;
+    background: #e6e6e6;
+    text-align: center;
+    color: #656565;
+    margin-top: 10px;
+}
+
+/*选择列表部分*/
+.s-lei{
+    width: 1202px;
+    margin: 0 auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.s-lcon{
+    border: 1px solid #e5e5e5;
+    position: relative;
+    border-bottom: none;
+    width: 1200px;
+    margin: 0 auto;
+}
+.s-mtt{
+    width: 1200px;
+    border-left: 1px solid #fff;
+    text-align: center;
+}
+.s-mtt span{
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+    width: 333px;
+    top: -2px;
+    padding-bottom: 5px;
+    color: #999;
+    height: 25px;
+    /*background: url(../../../image/imgv3/sea.jpg) no-repeat;*/
+    display: block;
+    margin: 0 auto;
+}
+.s-mtt span em {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    font-style: normal;
+}
+.g-tit {
+    float: left;
+    width: 80px;
+    text-align: right;
+    line-height: 35px;
+    color: #333;
+    background: #fafafa;
+}
+.s-lcon-p{
+    overflow: hidden;
+    position: relative;
+    height:35px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.s-lcon-p dl{
+	height: 35px;
+    float: left;
+    width: 1000px;
+    display: block;
+    overflow: hidden;
+}
+ .s-lcon-p dl dd{
+    float: left;
+    margin-left: 20px;
+    margin-top: 1px;
+    line-height: 25px;
+    white-space: nowrap;
+    color: #666;
+}
+.s-lcon-p a{
+    line-height: 35px;
+    display: block;
+    color: #666;
+}
+.s-zjpp {
+    position: absolute;
+    top: 2px;
+    right: 0px;
+}
+.s-zjpp span {
+    float: left;
+    margin-right: 10px;
+    color: #164a96;
+    line-height: 32px;
+    cursor: pointer;
+}
+span.s-zjpp-01 {
+    padding: 0px 8px;
+    height: 20px;
+    background: #f8f7f5;
+    border: 1px solid #e5e5e5;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    color: #164a96;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.left {
+    float: left;
+    width: 190px;
+}
+.sea-left {
+    float: left;
+    width: 190px;
+    overflow: hidden;
+}
+.sea-left-l {
+    float: left;
+    width: 188px;
+    padding-bottom: 20px;
+    border: 1px solid #e6e6e6;
+}
+.sea-left-t1 {
+    height: 40px;
+    background: #fafafa;
+    border-bottom: 1px solid #e6e6e6;
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    color: #c71417;
+    font-weight: bold;
+}
+.sea-left-t1 em {
+    color: #666;
+    margin-left:4px;
+    font-style: normal;
+}
+.sea-left-t1 span{
+    width: 37px;
+    height: 36px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: url(../img/common/core.png);
+    background-position: -960px -845px;
+}
+.sea-left-con ul {
+    width: 145px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.sea-left-con ul li a img {
+    width: 140px;
+    height: 140px;
+}
+.sea-left-con ul li.left-conli-txt a {
+    color: #333;
+    height: 20px;
+    display: block;
+    line-height: 20px;
+    margin-top: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.sea-left-con ul li.left-conli-val {
+    color: #ff3344;
+    font-weight: bold;
+    height: 20px;
+    overflow: hidden;
+    display: block;
+    line-height: 20px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+.sea-left-t1 .pt-news {
+    width: 37px;
+    height: 36px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: url(../img/common/core.png);
+    background-position: -1025px -610px;
+}
+.right {
+    float: right;
+    width: 1000px;
+    overflow: hidden;
+}
+.fore1{
+    height: 40px;
+    background: #f9f9f7;
+    border: 1px solid #e6e6e6;
+}
+.pro {
+    overflow: hidden;
+}
+.pro ul li {
+    float: left;
+    width: 240px;
+    height: 390px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    margin-left: 2px;
+    margin-top: 20px;
+    border-bottom: 1px dashed #ddd;
+    position: relative;
+}
+.pro-lims{
+    position: absolute;
+    top: 2px;
+    right: 13px;
+    width: 62px;
+    height: 62px;
+    background: url(../img/common/sh-icon.png);
+    background-position: -0px -165px;
+}
+.pro-liimg{
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.pro-line{
+    overflow: hidden;
+    text-align: left;
+    padding: 0px 8px;
+    margin-top: 10px;
+    height: 50px;
+}
+.pro-line a{
+    color: #666;
+    line-height: 25px;
+}
+.val-n{
+    float: left;
+}
+span.p4-jg02 {
+    color: #e43b3b;
+    font-size: 16px;
+    float: left;
+    background: url(../img/common/s-ico.png) no-repeat;
+    height: 23px;
+    display: block;
+    padding-left: 28px;
+    margin-left: 5px;
+    line-height: 23px;
+    font-weight: bold;
+}
+.delcon {
+    font-size: 14px;
+    color: #999;
+    margin-left: 5px;
+    float: left;
+    line-height: 23px;
+}
+.pro-lipc{
+    padding: 0px 4px;
+    margin-top: 25px;
+    overflow: hidden;
+    height: 25px;
+}
+.pt-zy {
+    width: 58px;
+    height: 20px;
+    display: block;
+    background: url(../img/common/men-bg.png) no-repeat;
+    background-position: -324px -828px;
+    float: left;
+    margin-top:4px;
+    margin-right: 5px;
+}
+/*下方列表*/
+.s-pagell{
+    float: right;
+    margin-right: 10px;
+}
+.s-pagell ul li {
+    float: left;
+    margin-top: 8px;
+    margin-right: 4px;
+}
+.s-pagell ul li a{
+    display: block;
+    width: 30px;
+    height: 25px;
+    border: 1px solid #ccc;
+    color: #666;
+    background: #fff;
+    line-height: 27px;
+    text-align: center;
+}
+.s-pagell ul li .red{
+	border: 1px solid #e4393c;
+    color:#e4393c;
+}
+#tipUl{
+	position: absolute;
+	left:0;
+	bottom:0;
+	z-index: 999;
+	background: #fff;
+}
+#tipUl li{
+	width: 340px;
+    line-height: 36px;
+    height: 36px;
+    border: none;
+    padding-left: 10px;
+    margin-top: 1px;
+    margin-left: 2px;
+    cursor: pointer;
+}

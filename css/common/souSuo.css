@@ -1,0 +1,157 @@
+.banner-top{
+	width: 1200px;
+	margin: 0 auto;
+	position:relative;
+}
+.banner-top a {
+    text-decoration: none;
+    color: #333;
+    outline: none;
+}
+.delete{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 22px;
+    height: 22px;
+    background: url(../../img/common/core.png) no-repeat;
+    background-position: -264px -16px;
+    cursor: pointer;
+    z-index: 1;
+    
+}
+
+.sea-top{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    position: relative;
+    height: 70px;
+}
+.sea-top-logo{
+    float: left;
+    width: 220px;
+    height: 68px;
+}
+.sea-top-logo a{
+	display: block;
+    width: 220px;
+    height: 68px;	
+}
+.sea-top-banner{
+	float: left;
+	width: 240px;
+}
+.sea-top-banner a img{
+    width: 240px;
+    height: 68px;
+}
+.sea-top-seek{
+    position: absolute;
+    top: 40px;
+    left: 480px;
+    width: 450px;
+    height: 80px;
+   
+}
+.top-seek-up{
+    width: 430px;
+    height: 36px;
+    position: relative;
+     
+}
+.up-k{
+    float: left;
+    border: 1px solid #999999;
+}
+.up-k input{
+    width: 340px;
+    line-height: 36px;
+    height: 36px;
+    border: none;
+    padding-left: 10px;
+    margin-top: 1px;
+    margin-left: 2px;
+    outline: none;
+}
+.up-bt{
+    float: right;
+    background: #FFF;
+    height: 36px;
+    border-left: 1px solid #EF1F46;
+    margin: 0px;
+    border: 1px solid #999999;
+}
+.up-bt input{
+    font-family: "Microsoft Yahei";
+    font-size: 16px;
+    color: #333;
+    background: none;
+    width: 65px;
+    border: none;
+    height: 36px;
+    cursor: pointer;
+}
+.top-seek-list{
+    margin-top: 10px;
+    height: 21px;
+    overflow: hidden;
+}
+.top-seek-list dt{
+	width: 60px;
+    color: #666;
+    float: left;
+}
+.top-seek-list dd{
+	float: left;
+    margin-right: 15px;
+}
+.top-seek-list dd a{
+	color:#666;
+}
+.sea-top-app{
+    float: right;
+}
+.sea-top-app ul{
+	float: left;
+    margin-left: 30px;
+}
+.top-app-txt{
+    color: #666;
+    margin-top: 10px;
+}
+.top-app-yd{
+	background: url(../../img/index/core-holiday.png);
+    background-position: -185px -0px;
+    width: 39px;
+    height: 39px;
+}
+.top-app-jd{
+	background: url(../../img/index/core-holiday.png);
+    background-position: -225px -0px;
+    width: 39px;
+    height: 39px;
+}
+.top-app-tm{
+	background: url(../../img/index/core-holiday.png);
+    background-position: -265px -0px;
+    width: 39px;
+    height: 39px;
+}
+#tipUl{
+	position: absolute;
+	left:0;
+	bottom:0;
+	z-index: 999;
+	background: #fff;
+}
+#tipUl li{
+	width: 340px;
+    line-height: 36px;
+    height: 36px;
+    border: none;
+    padding-left: 10px;
+    margin-top: 1px;
+    margin-left: 2px;
+    cursor: pointer;
+}

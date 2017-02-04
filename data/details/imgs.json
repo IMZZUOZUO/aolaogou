@@ -1,0 +1,33 @@
+{
+	"comimg01":{
+		"id":1,
+		"userName":"包包1",
+		"src":"../img/details/bo-bx-left-con1.jpg",
+		"price":"￥233.00"
+	},
+	"comimg02":{
+		"id":2,
+		"userName":"包包2",
+		"src":"../img/details/bo-bx-left-con2.jpg",
+		"price":"￥234.00"
+	},
+	"comimg03":{
+		"id":3,
+		"userName":"包包3",
+		"src":"../img/details/bo-bx-left-con3.jpg",
+		"price":"￥2333.00"
+	},
+	"comimg04":{
+		"id":4,
+		"userName":"包包4",
+		"src":"../img/details/bo-bx-left-con4.jpg",
+		"price":"￥2334.00"
+	},
+	"comimg05":{
+		"id":5,
+		"userName":"包包5",
+		"src":"../img/details/bo-bx-left-con5.jpg",
+		"price":"￥2335.00"
+	}
+}	
+

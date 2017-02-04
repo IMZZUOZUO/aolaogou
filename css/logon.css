@@ -1,0 +1,127 @@
+.main{
+	width:100%
+}
+.main form .mainTop{
+	width:1200px;
+	margin:0 auto;
+	margin: 30px 30px 0;
+	height:68px;
+}/*表单内容上的logo部分*/
+.mTop-lg{
+	float: left;
+	height:68px;
+	width:220px;
+}/*左边的logo*/
+.mTop-lg a{
+	text-decoration: none;
+	width:220px;
+}
+.mTop-br{
+	float:left
+}/*右边的说明*/
+.mainBom{
+	width:1200px;
+	height:513px;
+	padding: 30px;
+	margin-top: 20px;
+	border-bottom: 1px solid #E6E6E6;
+	border-top: 1px solid #e6e6e6;
+}/*注册下面的内容部分*/
+.mBom-br{
+	float: left;
+}/*左边的广告部分*/
+.mBom-form{
+	float:right;
+	width:350px;
+/*	height:450px;*/
+	margin-top: 30px;
+	border: 1px solid #d0d0d0;
+}/*注册的版心也就是主要内容部分*/
+.form-t{
+	background: #f5f5f5;
+	height: 40px;
+    border-bottom: 1px solid #f0f0f0;
+    line-height: 40px;
+    overflow: hidden;
+}/*跳转登录栏*/
+.form-t em{
+	font-weight: bold;
+    float: left;
+    color: #666;
+    margin-left: 15px;
+    font-style: normal;
+}/*文字说明*/
+.form-t span{
+    float: right;
+    margin-right: 15px;
+}
+.form-t span a{
+	    color: #ff7800;
+}/*跳转链接*/
+
+.form-z{
+	width: 300px;
+	height:400px;
+	margin: 0 25px;
+	padding:20px 0 ;
+}/*注册栏*/
+.form-za{
+    width: 55px;
+    text-align: right;
+    color: #666;
+    line-height: 35px;
+}/*左边的说明*/
+.form-zb{
+	width: 180px;
+    background: #fcfcfc;
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 35px;
+    border: 1px solid #e6e6e6;
+    padding-right: 45px;
+    color: #666;
+    padding-left: 10px;
+    line-height: 30px;
+}/*右边的表单内容*/
+.form-z2{
+	height:30px;
+}/*隐藏的部分*/
+.form-z2 .form-za{
+	line-height: 30px;
+}/*隐藏部分左边的空白*/
+.form-check{
+	line-height: 25px;
+	height:25px;
+}/*单选框按钮样式*/
+.form-btn{
+	    width: 175px;
+    height: 40px;
+    display: block;
+    background: #ff3344;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 2px;
+}/*提交按钮样式*/
+/*.form-zc{
+	line-height: 30px;
+	font-size: 12px;
+}*/
+.form-eorr{
+	color:#ff3344;
+	font-size: 12px;
+	line-height: 30px;
+}
+.form-good{
+	line-height: 30px;
+    color: #38c352;
+    font-size: 12px;
+}
+.form-hidd{
+	display: none;
+}
+#yZm:hover{
+	cursor: pointer;
+}

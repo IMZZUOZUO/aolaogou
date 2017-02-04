@@ -1,0 +1,376 @@
+/*搜索框样式*/
+.sea-top{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    position: relative;
+    height: 70px;
+}
+.sea-top-logo{
+    float: left;
+    width: 220px;
+    height: 68px;
+}
+.sea-top-logo a{
+	display: block;
+    width: 220px;
+    height: 68px;	
+}
+.itop-br {
+    float: left;
+}
+.itop-br img {
+    width: 240px;
+    height: 68px;
+}
+.sea-top-seek{
+    position: absolute;
+    top: 6px;
+    right: 1px;
+    width: 450px;
+    height: 80px;
+   
+}
+.top-seek-up{
+    width: 430px;
+    height: 36px;
+    position: relative;
+     
+}
+.up-k{
+    float: left;
+    border: 1px solid #999999;
+}
+.up-k input{
+    width: 340px;
+    line-height: 36px;
+    height: 36px;
+    border: none;
+    padding-left: 10px;
+    margin-top: 1px;
+    margin-left: 2px;
+    outline: none;
+}
+.up-bt{
+    float: right;
+    background: #FFF;
+    height: 36px;
+    border-left: 1px solid #EF1F46;
+    margin: 0px;
+    border: 1px solid #999999;
+}
+.up-bt input{
+    font-family: "Microsoft Yahei";
+    font-size: 16px;
+    color: #333;
+    background: none;
+    width: 65px;
+    border: none;
+    height: 36px;
+    cursor: pointer;
+}
+
+/*下方广告*/
+.i-topbanner{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.s-Hotv3{
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid #e6e6e6;
+    overflow: hidden;
+}
+/*左边文字部分*/
+.s-Hotv3-lf{
+    float: left;
+    width: 40px;
+    height: 150px;
+    background: #fafafa;
+    border-right: 1px solid #e6e6e6;
+}
+.s-Hotv3-lf ul li{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+}
+/*右边图片部分*/
+.s-Hotv3-rt{
+    float: left;
+}
+.s-Hotv3-rt ul li{
+    float: left;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.hotv3-rtlia{
+    width: 130px;
+    height: 130px;
+    border: 1px solid #eaeaea;
+    float: left;
+}
+.hotv3-rtlib{
+    width: 130px;
+    float: left;
+    height: 130px;
+    margin-left: 10px;
+}
+.hotv3-rtlib-tit {
+    height: 52px;
+    overflow: hidden;
+}
+.hotv3-rtlib-tit a{
+    color: #333;
+}
+.hotv3-rtlib-val {
+    height: 30px;
+    line-height: 30px;
+    color: #ff3243;
+}
+.hotv3-rtlib-btn a {
+    width: 80px;
+    height: 30px;
+    display: block;
+    line-height: 30px;
+    background: #e6e6e6;
+    text-align: center;
+    color: #656565;
+    margin-top: 10px;
+}
+/*商品清单页面*/
+.cart-warp {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.cart-title {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    color: #d61417;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid #d61417;
+    float: left;
+}
+.tab-zdcon {
+    border-right: 1px solid #e6e6e6;
+    border-left: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+    border-collapse:inherit;
+}
+/*.tab-zdcon tbody{
+	border-bottom: 1px solid #e6e6e6;
+}*/
+table.tab-zdcon tr td {
+    padding: 1px 0px;
+    text-align: center;
+}
+.tabdiv-add {
+    text-align: left;
+    margin-left: 15px;
+}
+.tb3-con {
+    overflow: hidden;
+    margin: 8px 0px;
+}
+.tb3-divtu {
+    float: left;
+    margin-left: 10px;
+    width: 60px;
+    text-align: center;
+}
+.tb3-divtu img {
+    width: 60px;
+    height: 60px;
+}
+.tb3-divti {
+    float: left;
+    margin-left: 10px;
+    width: 400px;
+    overflow: hidden;
+}
+.tb3-divti a {
+    line-height: 20px;
+    display: block;
+    height: 40px;
+    color: #333;
+    text-align: left;
+}
+.tb3-divti p {
+    margin-bottom: 5px;
+    text-align: left;
+}
+.tb3-divti p span {
+    color: #999;
+    margin-right: 24px;
+    margin-top: 5px;
+    text-align: left;
+}
+.tab-zdcon-line span {
+    color: #ff7800;
+}
+.tab-zdcon-line em {
+    font-style: normal;
+    color: #c81417;
+    font-weight: bold;
+    font-size: 13px;
+}
+.tab-v31-tr {
+    height: 44px;
+}
+.tab-zdcon tr th {
+    border-bottom: 1px solid #e6e6e6;
+    text-align: center;
+    background: #fafafa;
+    color: #666;
+    font-weight: 500;
+}
+/*结算页面样式*/
+.car-wind {
+    background: #f5f5f5;
+    border: 1px solid #e6e6e6;
+    height: 40px;
+    margin-top: 20px;
+    padding: 25px 0px;
+}
+.windfloat {
+    float: left;
+}
+.carwinda ul li {
+    float: left;
+    margin-left: 25px;
+}
+.carwindb {
+    float: left;
+    margin-left: 200px;
+    overflow: hidden;
+}
+.carwindc {
+    float: right;
+}
+.carwindc ul li {
+    float: left;
+    text-align: right;
+    margin-right: 20px;
+}
+.carwindc-1 {
+    font-size: 16px;
+    color: #666;
+    font-weight: bold;
+}
+.carwindc-2 {
+    color: #999;
+}
+.carwindc-1 em {
+    color: #ff3344;
+    font-style: normal;
+}
+.carwindc-2 em {
+    color: #ff7800;
+    margin: 0px 5px;
+    font-style: normal;
+}
+.carwindc ul li a {
+    width: 120px;
+    height: 45px;
+    background: #ff3344;
+    text-align: center;
+    line-height: 45px;
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+.carwindc ul li a:hover{
+	background: #890D0F;
+}
+.cart-num {
+    overflow: hidden;
+    margin: 0px 0px;
+}
+.cart-num ul {
+    margin-left: 20px;
+}
+.cart-num ul li {
+    float: left;
+}
+.cart-num ul li a.cart-numa {
+    background: #fafafa;
+    width: 20px;
+    height: 20px;
+    display: block;
+    border: 1px solid #eee;
+    font-size: 13px;
+    text-align: center;
+    line-height: 20px;
+}
+.cart-num ul li input.cartnum-value {
+    width: 30px;
+    height: 20px;
+    border: 1px solid #999;
+    text-align: center;
+    line-height: 20px;
+}
+.cart-num ul li a.cart-numb {
+    background: #fafafa;
+    width: 20px;
+    height: 20px;
+    display: block;
+    border: 1px solid #eee;
+    font-size: 13px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.cart-ts {
+    height: 44px;
+    background: #F5F5F5 none repeat scroll 0% 0%;
+    border: 1px solid #E6E6E6;
+}
+.cart-ts span {
+    color: #ff3344;
+    font-weight: bold;
+    line-height: 44px;
+    margin-left: 20px;
+}
+.m-house {
+    padding-bottom: 25px;
+    border: 1px solid #e6e6e6;
+    border-top: none;
+    overflow: hidden;
+}
+.cart-none a {
+    color: #164a96;
+    margin: 0px 10px;
+}
+.cart-warp-none{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#tipUl{
+	position: absolute;
+	left:0;
+	bottom:0;
+	z-index: 999;
+	background: #fff;
+}
+#tipUl li{
+	width: 340px;
+    line-height: 36px;
+    height: 36px;
+    border: none;
+    padding-left: 10px;
+    margin-top: 1px;
+    margin-left: 2px;
+    cursor: pointer;
+}

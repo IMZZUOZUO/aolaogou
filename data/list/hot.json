@@ -1,0 +1,26 @@
+{
+	"hot1":{
+		"id":1,
+		"userName":"欧莎OSA  新款假两件黑白拼接套头毛衣针织衫女",
+		"price":"￥233",
+		"imgSrc":"../img/list/list-hotv3-rtli1.jpg"
+	},
+	"hot2":{
+		"id":2,
+		"userName":"小仓唯唱歌贼好听",
+		"price":"￥2333",
+		"imgSrc":"../img/list/list-hotv3-rtli2.jpg"
+	},
+	"hot3":{
+		"id":3,
+		"userName":"小仓唯唱歌贼好听1",
+		"price":"￥23",
+		"imgSrc":"../img/list/list-hotv3-rtli3.JPG"
+	},
+	"hot4":{
+		"id":4,
+		"userName":"小仓唯唱歌贼好听4",
+		"price":"￥23334",
+		"imgSrc":"../img/list/list-hotv3-rtli4.JPG"
+	}
+}
